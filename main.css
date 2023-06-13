@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app{
+    padding: 0px 1vw 0px 1vw;
+    display: grid;
+    grid-template-columns: 20vw 25vw 8vw 35vw 6vw;
+    column-gap: 1vw;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+#app select,
+#app input,
+#app button{
+    height: 50vh;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+#app select,
+#app input{
+    padding-left: 5px;
+}
+#app select:focus,
+#app input:focus{
+    outline: 0;
+    border: 2px solid blue;
+}
+#app button:focus{
+    outline: white;
+    background-color: blue;
+    font-size: xx-large;
+}
+#app button{
+    cursor: pointer;
+    font-size: x-large;
+    background-color: rgb(16, 167, 167);
+    color: white;
+}

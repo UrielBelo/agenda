@@ -1,0 +1,21 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Um projeto rápido para que eu consiga anotar as ligações que eu recebo dos meus clientes em um banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0"
+  },
+  "dependencies": {
+    "electron-builder": "^24.4.0",
+    "sqlite-sync": "^0.3.7"
+  }
+}

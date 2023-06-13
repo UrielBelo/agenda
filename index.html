@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda de Atendimentos</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" placeholder="Nome do Cliente" id="clientName">
+        <select name="entity" id="clientEntity">
+            <option value="PM">Prefeitura Municipal</option>
+            <option value="CM">Câmara Municipal</option>
+            <option value="IP">Instituto de Previdência</option>
+            <option value="CS">Consórcio</option>
+            <option value="SA">Serviço de Águas</option>
+            <option value="SU">Saúde</option>
+            <option value="ED">Educação</option>
+        </select>
+        <select name="uf" id="clientUF" aria-placeholder="UF"></select>
+        <select name="city" id="clientCity" aria-placeholder="Cidade do Cliente"></select>
+        <button id="insert">+</button>
+    </div>
+    <script src="./front.js"></script>
+</body>
+</html>
